@@ -23,4 +23,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	int32 Step();
+
+	void Move();
+
+private:
+	FVector Start;
 };
